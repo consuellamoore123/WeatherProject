@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    *box-sizing: border-box;
+
+}
+
+
+
+body {
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: "Poppins", Sans-Serif;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 100vh;
+
+}
+
+.navbar{
+    background-color: rgb(46, 105, 153, 0.9)
+
+
+}
+
+.navbar-light .navbar-brand {
+    font-weight: 200;
+    color: #ECE7E5;
+    /*color: white;*/
+    font-family:  "Poppins", Sans-Serif;
+}
+
+.btn{
+    font-weight: 100;
+    /*color: white;*/
+    color: #ECE7E5;
+    font-family:  "Poppins", Sans-Serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+footer a {
+    color: #ECE7E5;
+    font-weight: 200;
+    text-decoration: none;
+}
+footer a:hover {
+    color:black;
+}
+
+
+
+h6{
+    font-weight: 200;
+    color: white;
+    /*color: #ECE7E5;*/
+    font-family:  "Poppins", Sans-Serif;
+}
+
+
+.card-body {
+
+    background: linear-gradient(rgb(47, 150, 163, 0.5), rgb(48, 62, 143 ));
+
+
+
+}
+
+.card-header{
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family:  "Poppins", Sans-Serif;
+    color: #ECE7E5;
+    font-weight: 200;
+    /*color: white;*/
+}
+
+.card-footer:last-child{
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
+.card {
+    font-family: "Poppins", Sans-Serif;
+    font-weight: 100;
+    width: 200px;
+    border-color: rgb(49, 88, 149);
+
+
+}
+
+.card-text{
+    color: white;
+    font-weight: 100;
+}
+
+
+
+#map {
+    /*//the width and height may be set to any size*/
+    /*background-Size: cover;*/
+    width: 70%;
+    height: 300px;
+
+}
+
+
+.marker {
+    background-image: url('mapbox-icon.png');
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 730px) {
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        width: 550px;
+        overflow: auto;
+    }
+
+    .card {
+        word-wrap: normal;
+    }
+}
+
+.map{
+    align-items: center;
+    width: 100%;
+
+}
